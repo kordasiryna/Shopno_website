@@ -1,0 +1,18 @@
+/*-------About Us----*/
+.carousel_row {
+  padding-bottom: 200px;
+  padding-left: 100px;
+}
+div.comp_carousel {
+  background-color: #eaebed;
+  width: 476px;
+  height: 410px;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.carousel {
+  padding-left: 50px;
+  top: -50px;
+}

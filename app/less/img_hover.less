@@ -1,0 +1,220 @@
+@import url(variables.less);
+
+
+.white {
+	margin-left: 100px;
+	height: 422px; 
+	position: relative;
+	width: 650px; 
+	 overflow:hidden;
+	&:hover {
+		.white_hover {
+			display: block;
+			height: 422px; 
+			padding-top: 100px;
+			position: absolute;
+			top: 0;
+			width: 650px; 
+			padding-left: 60px;
+			overflow: hidden;
+		}
+	}
+}	
+.plan {
+	height: 422px; 
+	position: relative;
+	width: 480px; 
+	margin-left: 50px;
+	 overflow:hidden;
+	&:hover {
+		.plan_hover {
+			display: block;
+			height: 422px; 
+			padding-top: 100px;
+			position: absolute;
+			top: 0px;
+			width: 480px; 
+			padding-left: 60px;
+			padding-top: 100px;
+			overflow: hidden;
+		}
+	}
+}
+
+.note {
+	height: 422px; 
+	margin-left: 100px;
+	padding-top: 20px;
+	position: relative;
+	 overflow:hidden;
+	width: 650px; 
+	&:hover {
+		.note_hover {
+			display: block;
+			height: 370px; 
+			position: absolute;
+			top: 20px;
+			width: 650px; 
+			padding-left: 60px;
+			padding-top: 100px;
+			overflow: hidden;
+		}
+	}
+}
+.mac {
+	height: 422px; 
+	padding-top: 20px;
+	position: relative;
+	width: 480px; 
+	 overflow:hidden;
+	margin-left: 50px;
+	&:hover {
+		.mac_hover {
+			display: block;
+			height: 370px; 
+			padding-left: 60px;
+			padding-top: 100px;
+			position: absolute;
+			top: 20px;
+			width: 480px; 
+			overflow: hidden;
+		}
+	}
+}
+
+.dr {
+	height: 370px; 
+	margin-left: 100px;
+	padding-bottom: 50px;
+	position: relative;
+	width: 470px; 
+	 overflow:hidden;
+	&:hover {
+		.dr_hover {
+			display: block;
+			height: 370px; 
+			padding-left: 60px;
+			padding-top: 100px;
+			position: absolute;
+			top: 0px;
+			width: 470px; 
+			overflow: hidden;
+		}
+	}
+}
+.cap {
+	height: 370px; 
+	padding-bottom: 50px;
+	position: relative;
+	width: 650px; 
+	margin-left: 50px;
+	 overflow:hidden;
+	&:hover {
+		.cap_hover {
+			display: block;
+			height: 370px; 
+			padding-left: 60px;
+			padding-top: 100px;
+			position: absolute;
+			top: 0;
+			width: 650px; 
+			overflow: hidden;
+		}
+	}
+}
+
+.white_hover,
+.plan_hover,
+.note_hover,
+.mac_hover,
+.dr_hover,
+.cap_hover{
+	transition: bottom 0.1s linear;
+	background: rgba(0, 0, 0, 0.6);
+	box-sizing: border-box;
+	color: #f6f6f6; 
+	display: none;
+	.note1 {
+		font-family: @font_family_Merri;
+		font-size: 14px;
+		font-weight: 400;
+		text-align: left;	
+		color: #e7e7e7;
+		line-height: 1.5;	
+	}
+	.note2{
+		text-transform: uppercase;
+		cursor: pointer;
+		color: #e7e7e7;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+#white_blue,
+#white_blue2,
+#white_blue3,
+#white_blue4,
+#white_blue5,
+#white_blue6{
+	background-color: #71f5ea;
+	display: none;
+	position: absolute;
+	z-index: 99;
+	top: 0;
+	h3{
+		padding-left: 50px;
+	}
+}
+#white_blue{
+	height: 422px; 
+	width: 652px; 
+}
+#white_blue2{
+	width: 480px; 
+	height: 422px; 
+}
+#white_blue3{
+	height: 370px; 
+	width: 650px; 
+	margin-top: 20px;
+}
+#white_blue4{
+	height: 370px; 
+	width: 480px; 
+	margin-top: 20px;
+}
+#white_blue5,
+#white_blue6{
+	height: 370px; 
+}
+
+
+
+.photos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+	align-items: baseline;
+}
+
+.white,
+    .note,
+    .dr,
+    .plan,
+    .mac,
+    .cap{
+		overflow:hidden;
+		margin-right: 10px;
+
+ }
+ .white img ,
+    .note img ,
+    .dr img ,
+    .plan img ,
+    .mac img ,
+    .cap img{
+	 margin-bottom: 50px;
+	 width: 100%;
+ }
+ 

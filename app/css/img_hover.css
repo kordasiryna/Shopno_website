@@ -1,0 +1,228 @@
+.white {
+  margin-left: 100px;
+  height: 422px;
+  position: relative;
+  width: 650px;
+  overflow: hidden;
+}
+.white:hover .white_hover {
+  display: block;
+  height: 422px;
+  padding-top: 100px;
+  position: absolute;
+  top: 0;
+  width: 650px;
+  padding-left: 60px;
+  overflow: hidden;
+}
+.plan {
+  height: 422px;
+  position: relative;
+  width: 480px;
+  margin-left: 50px;
+  overflow: hidden;
+}
+.plan:hover .plan_hover {
+  display: block;
+  height: 422px;
+  position: absolute;
+  top: 0px;
+  width: 480px;
+  padding-left: 60px;
+  padding-top: 100px;
+  overflow: hidden;
+}
+.note {
+  height: 422px;
+  margin-left: 100px;
+  padding-top: 20px;
+  position: relative;
+  overflow: hidden;
+  width: 650px;
+}
+.note:hover .note_hover {
+  display: block;
+  height: 370px;
+  position: absolute;
+  top: 20px;
+  width: 650px;
+  padding-left: 60px;
+  padding-top: 100px;
+  overflow: hidden;
+}
+.mac {
+  height: 422px;
+  padding-top: 20px;
+  position: relative;
+  width: 480px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+.mac:hover .mac_hover {
+  display: block;
+  height: 370px;
+  padding-left: 60px;
+  padding-top: 100px;
+  position: absolute;
+  top: 20px;
+  width: 480px;
+  overflow: hidden;
+}
+.dr {
+  height: 370px;
+  margin-left: 100px;
+  padding-bottom: 50px;
+  position: relative;
+  width: 470px;
+  overflow: hidden;
+}
+.dr:hover .dr_hover {
+  display: block;
+  height: 370px;
+  padding-left: 60px;
+  padding-top: 100px;
+  position: absolute;
+  top: 0px;
+  width: 470px;
+  overflow: hidden;
+}
+.cap {
+  height: 370px;
+  padding-bottom: 50px;
+  position: relative;
+  width: 650px;
+  margin-left: 50px;
+  overflow: hidden;
+}
+.cap:hover .cap_hover {
+  display: block;
+  height: 370px;
+  padding-left: 60px;
+  padding-top: 100px;
+  position: absolute;
+  top: 0;
+  width: 650px;
+  overflow: hidden;
+}
+.white_hover,
+.plan_hover,
+.note_hover,
+.mac_hover,
+.dr_hover,
+.cap_hover {
+  -webkit-transition: bottom 0.1s linear;
+  transition: bottom 0.1s linear;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #f6f6f6;
+  display: none;
+}
+.white_hover .note1,
+.plan_hover .note1,
+.note_hover .note1,
+.mac_hover .note1,
+.dr_hover .note1,
+.cap_hover .note1 {
+  font-family: 'Merriweather';
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #e7e7e7;
+  line-height: 1.5;
+}
+.white_hover .note2,
+.plan_hover .note2,
+.note_hover .note2,
+.mac_hover .note2,
+.dr_hover .note2,
+.cap_hover .note2 {
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #e7e7e7;
+}
+.white_hover .note2:hover,
+.plan_hover .note2:hover,
+.note_hover .note2:hover,
+.mac_hover .note2:hover,
+.dr_hover .note2:hover,
+.cap_hover .note2:hover {
+  text-decoration: underline;
+}
+#white_blue,
+#white_blue2,
+#white_blue3,
+#white_blue4,
+#white_blue5,
+#white_blue6 {
+  background-color: #71f5ea;
+  display: none;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+}
+#white_blue h3,
+#white_blue2 h3,
+#white_blue3 h3,
+#white_blue4 h3,
+#white_blue5 h3,
+#white_blue6 h3 {
+  padding-left: 50px;
+}
+#white_blue {
+  height: 422px;
+  width: 652px;
+}
+#white_blue2 {
+  width: 480px;
+  height: 422px;
+}
+#white_blue3 {
+  height: 370px;
+  width: 650px;
+  margin-top: 20px;
+}
+#white_blue4 {
+  height: 370px;
+  width: 480px;
+  margin-top: 20px;
+}
+#white_blue5,
+#white_blue6 {
+  height: 370px;
+}
+.photos {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+.white,
+.note,
+.dr,
+.plan,
+.mac,
+.cap {
+  overflow: hidden;
+  margin-right: 10px;
+}
+.white img,
+.note img,
+.dr img,
+.plan img,
+.mac img,
+.cap img {
+  margin-bottom: 50px;
+  width: 100%;
+}
